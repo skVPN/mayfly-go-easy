@@ -1,1 +1,1 @@
-docker run -d --name mayfly-go -v $(pwd):/mayfly -p 80:80  ccr.ccs.tencentyun.com/mayfly/mayfly-go:v1.8.5
+docker run -d --name mayfly-go -v $(pwd):/mayfly-go -p 8088:80  ccr.ccs.tencentyun.com/mayfly/mayfly-go:v1.9.1
